@@ -11,6 +11,7 @@ import framerIcon from "./framer-logo.svg"
 import githubIcon from "./github-logo.svg"
 import figmaIcon from "./figma-logo.svg"
 import relumeIcon from "./relume-logo.svg"
+import cursorYou from "./cursor-you.svg"
 
 export{
     logoImage,
@@ -25,5 +26,6 @@ export{
     framerIcon,
     githubIcon,
     figmaIcon,
-    relumeIcon
+    relumeIcon,
+    cursorYou
 }
