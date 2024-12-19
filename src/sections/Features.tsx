@@ -1,5 +1,4 @@
 import { avater1, avater2, avater3, avater4 } from "@/assets/images";
-import Avater from "@/components/Avater";
 import FeatureCard from "@/components/FeatureCard";
 import Key from "@/components/Key";
 import Tag from "@/components/Tag";
@@ -23,7 +22,7 @@ export default function Features() {
                 <div className="flex justify-center">
                     <Tag>Features</Tag>
                 </div>
-                <h2 className="text-6xl mt-6 max-w-2xl mx-auto font-medium text-center mt-6">Where power meets <span className="text-lime-400">simplicity</span></h2>
+                <h2 className="text-6xl mt-6 max-w-2xl mx-auto font-medium text-center">Where power meets <span className="text-lime-400">simplicity</span></h2>
                 <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-4 lg:grid-cols-3">
                     <FeatureCard title="Real-time Collaboration" description="Work together seamlessly with conflict-free team editing" className="md:col-span-2 lg:col-span-1">
                         <div className="aspect-video flex items-center justify-center">
