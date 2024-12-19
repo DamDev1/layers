@@ -1,7 +1,7 @@
 import { figmaIcon, framerIcon, githubIcon, notionIcon, relumeIcon, slackIcon } from "@/assets/images";
 import IntegrationColumn from "@/components/IntegrationColumn";
 import Tag from "@/components/Tag";
-import Image from "next/image";
+
 
 const integrations = [
     { name: "Figma", icon: figmaIcon, description: "Figma is a collaborative interface design tool." },

@@ -34,7 +34,7 @@ export default function Faqs() {
                 <div className="flex justify-center items-center">
                     <Tag>FAQS</Tag>
                 </div>
-                <h2 className="text-6xl font-medium mt-6 text-center max-w-xl mx-auto">Question? We've got <span className="text-lime-400">answers</span></h2>
+                <h2 className="text-6xl font-medium mt-6 text-center max-w-xl mx-auto">Question? We&apos;ve got <span className="text-lime-400">answers</span></h2>
                 <div className="mt-12 flex flex-col gap-6">
                     {faqs.map((faq, faqIndex) => (
                         <div key={faq.question} onClick={() => setSeletedIndex(faqIndex)} className="bg-neutral-900 rounded-2xl border border-white/10 p-6 cursor-pointer">

@@ -1,4 +1,3 @@
-import { figmaIcon, notionIcon, slackIcon } from '@/assets/images';
 import { type IntegrationType } from '@/sections/Integrations';
 import Image from 'next/image';
 import React from 'react'
