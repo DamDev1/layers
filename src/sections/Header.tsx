@@ -51,8 +51,8 @@ export default function Header() {
                                     animate={{ height: "auto" }}
                                     exit={{ height: 0 }} className='overflow-hidden'>
                                     <div className='flex flex-col items-center gap-4 py-4'>
-                                        {navLinks.map((link) => (
-                                            <a href={link.href}>{link.label}</a>
+                                        {navLinks.map((link, i) => (
+                                            <a key={i} href={link.href}>{link.label}</a>
                                         ))}
                                         <Button variant='primary'>Login</Button>
                                         <Button variant='secondary'>Sign Up</Button>
