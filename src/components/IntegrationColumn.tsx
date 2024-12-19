@@ -11,7 +11,7 @@ export default function IntegrationColumn(props:{
     return (
         <div className={twMerge("flex flex-col gap-4 pb-4", className)}>
             {integrations.map((integration) => (
-                <div key={integration.name} className="bg-neutral-900 border border-white/1- rounded-3xl p-6">
+                <div key={integration.name} className="bg-neutral-900 border border-white/15 rounded-3xl p-6">
                     <div className="flex justify-center">
                         <Image src={integration.icon} alt={`${integration.name} icon`} className="size-24" />
                     </div>
