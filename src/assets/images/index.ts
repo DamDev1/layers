@@ -13,6 +13,7 @@ import figmaIcon from "./figma-logo.svg"
 import relumeIcon from "./relume-logo.svg"
 import cursorYou from "./cursor-you.svg"
 
+
 export{
     logoImage,
     designExample1Image,
